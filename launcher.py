@@ -10,7 +10,7 @@ import streamlit.web.cli as stcli
 # Settings
 STREAMLIT_PORT = 8501
 HEARTBEAT_PORT = 8502
-TIMEOUT_SECONDS = 300 
+TIMEOUT_SECONDS = 300 # The streamlit process will end after 5 minutes without pings
 HOST_IP = "127.0.0.1"
 FLAG_WORKER = "run-streamlit-worker" # Internal flag to distinguish worker process
 
